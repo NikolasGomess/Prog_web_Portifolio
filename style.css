@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2 {
+    color: white;
+    padding: 10px;
+}
+
+main {
+    min-height: 80vh;
+}
+
+footer {
+    height: 10vh;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    transition: 0.8s;
+}
+
+.nav a:hover {
+    color: purple;
+}
+
+.main {
+    margin: 0 auto;
+    width: 75vh;
+}
+
+.main h1, p, hr {
+    margin: 25px 0;
+
+}
+.main ul {
+    margin: 10px;
+}
+
+#huracan {
+    margin: 0 45px;
+}
+
+.links {
+    background-color: black;
+}
+
+.links hr {
+    margin: 10px;
+}
+
+.footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: black;
+}
